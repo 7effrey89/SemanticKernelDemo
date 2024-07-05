@@ -11,7 +11,12 @@ Semantic Kernel is a lightweight, open-source development kit designed to simpli
 To start using Semantic Kernel, you can follow the quick start guide available on the Microsoft Learn website:
 https://learn.microsoft.com/en-us/semantic-kernel/overview/
 
-You can also have a view of some of the code samples I have made below:
+You can also have a view of some of the code samples I've made to accelerate your AI journey.
+
+## Prerequisite for RAG solutions
+Some of the samples utilizes a search index in AI Search to accomplish RAG. RAG is a common technique to bring specialized information from an knowledge database.
+In this demo I have followed the guide below to create such index that consist of information from the documents in the /InternalDocuments folder. 
+https://learn.microsoft.com/en-us/azure/search/search-get-started-portal-import-vectors?tabs=sample-data-storage%2Cmodel-aoai#start-the-wizard
 
 ## AI answer:
 ![image](https://github.com/7effrey89/SemanticKernelDemo/assets/30802073/94c1b4c8-e3af-49c9-bc59-4744c7b5a991)  
