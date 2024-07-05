@@ -1,4 +1,4 @@
-# SemanticKernel
+# Semantic Kernel
 Semantic Kernel is a lightweight, open-source development kit designed to simplify the integration of advanced AI models into your applications. Whether you’re working with C#, Python, or Java, Semantic Kernel provides a robust framework to build AI agents that can interact with various large language models (LLMs) and perform complex tasks efficiently.
 
 ## Key Features:
