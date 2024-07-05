@@ -11,7 +11,7 @@ Semantic Kernel is a lightweight, open-source development kit designed to simpli
 To start using Semantic Kernel, you can follow the quick start guide available on the Microsoft Learn website:
 https://learn.microsoft.com/en-us/semantic-kernel/overview/
 
-You can have a view of some of the code samples i have made below:
+You can also have a view of some of the code samples I have made below:
 
 ## AI answer:
 ![image](https://github.com/7effrey89/SemanticKernelDemo/assets/30802073/94c1b4c8-e3af-49c9-bc59-4744c7b5a991)  
