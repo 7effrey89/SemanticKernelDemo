@@ -31,18 +31,16 @@ Chat conversation is maintained that allows users to follow up on a response fro
 Ai agent can retrieve specialized information from knowledge database e.g. internal documents in Azure AI search to serve user queries. This is also known as RAG.
 
 ## Copilot experience: 
-![image](https://github.com/7effrey89/SemanticKernelDemo/assets/30802073/13e89860-8fb9-4f68-a9ac-d3e328030c0a)  
+![image](https://github.com/7effrey89/SemanticKernelDemo/assets/30802073/920b9eca-6546-4045-990c-648afe9f3fa7)
 [Demo_Plugins.cs](https://github.com/7effrey89/SemanticKernelDemo/blob/master/Demo_Plugins.cs)  
 Enables a chat experience where users can ask AI to accomplish complex tasks building on chat, RAG, and now Plugins.
 Plugins enables the AI to invoke functionality inside and outside this application to complete tasks.
 
-Example:
+Example: Sending below prompt to semantic kernel trigger it to make a plan of how to solve this query using the plugins at its disposal:
 
-![image](https://github.com/7effrey89/SemanticKernelDemo/assets/30802073/920b9eca-6546-4045-990c-648afe9f3fa7)
+>5 months ago Donald went on vacation. What is the weather like right now for that location?
 
-* 5 months ago Donald went on vacation. What is the weather like right now for that location?
-
-This question will trigger AI to make a plan of how to solve this query using the plugins at its disposal:
+Typical plan made during the demo:
 1) AI will invoke my AI Search plugin to find the location of Donald's vacation
 2) Then invoke the GPS plugin to translate the gathered location to GPS coordinates (using an external API service) needed by the Weather plugin
 3) Then it will invoke the Weather plugin call external service to get the current weather for the GPS coordinates
