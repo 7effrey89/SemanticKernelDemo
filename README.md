@@ -13,30 +13,26 @@ https://learn.microsoft.com/en-us/semantic-kernel/overview/
 
 You can have a view of some of the code samples i have made below:
 
-## AI Answer
-![image](https://github.com/7effrey89/SemanticKernelDemo/assets/30802073/94c1b4c8-e3af-49c9-bc59-4744c7b5a991)
-
-*Demo_BasicQuestion.cs*  
+## AI answer:
+![image](https://github.com/7effrey89/SemanticKernelDemo/assets/30802073/94c1b4c8-e3af-49c9-bc59-4744c7b5a991)  
+[Demo_BasicQuestion.cs](https://github.com/7effrey89/SemanticKernelDemo/blob/master/Demo_BasicQuestion.cs)  
 Answers a question based on general knowledge it was trained on. Nothing more.
 
-## Chatbot experience
-![image](https://github.com/7effrey89/SemanticKernelDemo/assets/30802073/6a3f27ee-6a20-4cc6-81f2-2f51be3912aa)
-
-*Demo_ChatBot.cs*  
+## Chatbot experience:
+![image](https://github.com/7effrey89/SemanticKernelDemo/assets/30802073/6a3f27ee-6a20-4cc6-81f2-2f51be3912aa)  
+[Demo_ChatBot.cs](https://github.com/7effrey89/SemanticKernelDemo/blob/master/Demo_ChatBot.cs)  
 Chat experience with general knowledge. Chat conversation is maintained that allows users to follow up on a response from the Ai agent.
 
-## Ask your document - RAG
-*Demo_AISearch_RAG_Only.cs*  
-![image](https://github.com/7effrey89/SemanticKernelDemo/assets/30802073/797233a5-7220-4d97-8945-11c0d842d1d5)
-
+## Ask your document - RAG:
+![image](https://github.com/7effrey89/SemanticKernelDemo/assets/30802073/797233a5-7220-4d97-8945-11c0d842d1d5)  
+[Demo_AISearch_RAG_Only.cs](https://github.com/7effrey89/SemanticKernelDemo/blob/master/Demo_AISearch_RAG_Only.cs)  
 Chat experience with general knowledge + specialized knowledge. 
 Chat conversation is maintained that allows users to follow up on a response from the Ai agent.
 Ai agent can retrieve specialized information from knowledge database e.g. internal documents in Azure AI search to serve user queries. This is also known as RAG.
 
-## Copilot experience 
-*Demo_Plugins.cs*  
-![image](https://github.com/7effrey89/SemanticKernelDemo/assets/30802073/13e89860-8fb9-4f68-a9ac-d3e328030c0a)
-
+## Copilot experience: 
+![image](https://github.com/7effrey89/SemanticKernelDemo/assets/30802073/13e89860-8fb9-4f68-a9ac-d3e328030c0a)  
+[Demo_Plugins.cs](https://github.com/7effrey89/SemanticKernelDemo/blob/master/Demo_Plugins.cs)  
 Enables a chat experience where users can ask AI to accomplish complex tasks building on chat, RAG, and now Plugins.
 Plugins enables the AI to invoke functionality inside and outside this application to complete tasks.
 
@@ -51,15 +47,14 @@ This question will trigger AI to make a plan of how to solve this query using th
 2) Then invoke the GPS plugin to translate the gathered location to GPS coordinates (using an external API service) needed by the Weather plugin
 3) Then it will invoke the Weather plugin call external service to get the current weather for the GPS coordinates
 
-## Multi-Agent chatbot with plugins experience 
-*Demo_MultiAgent_Plugins.cs*  
-![image](https://github.com/7effrey89/SemanticKernelDemo/assets/30802073/6781a1d0-6ec9-44eb-b871-3803b93a25b3)
-
+## Multi-Agent chatbot with plugins experience: 
+![image](https://github.com/7effrey89/SemanticKernelDemo/assets/30802073/6781a1d0-6ec9-44eb-b871-3803b93a25b3)  
+[Demo_MultiAgent_Plugins.cs](https://github.com/7effrey89/SemanticKernelDemo/blob/master/Demo_MultiAgent_Plugins.cs)  
 Same as above, but each AI agent has access to different plugins.
 This enables the AI agents to have different capabilities and specialized knowledge.
 Can enable automation of complex tasks that require multiple steps and different types of knowledge.
 
-## Multi-Agent chatbot without plugins experience 
-*Demo_MultiAgent_Chatbot.cs*  
+## Multi-Agent chatbot without plugins experience: 
+[Demo_MultiAgent_Chatbot.cs](https://github.com/7effrey89/SemanticKernelDemo/blob/master/Demo_MultiAgent_Chatbot.cs)  
 Enables a chat experience where multiple AI agents can collaborate to solve a complex task.
 In this demo several AI agents discusses and collaborates to find the next big game product
