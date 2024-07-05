@@ -1,5 +1,14 @@
 # SemanticKernel
-In this repo you will find a couple of semantic kernel demos:
+Semantic Kernel is a lightweight, open-source development kit designed to simplify the integration of advanced AI models into your applications. Whether you’re working with C#, Python, or Java, Semantic Kernel provides a robust framework to build AI agents that can interact with various large language models (LLMs) and perform complex tasks efficiently.
+
+## Key Features:
+**Enterprise Ready**: Semantic Kernel is built to support enterprise-grade solutions, ensuring reliability and scalability. It includes features like telemetry support and security enhancements, making it suitable for large-scale deployments.  
+**Automating Business Processes**: By combining AI models with existing APIs, Semantic Kernel can automate a wide range of business processes. It acts as middleware, translating AI model requests into function calls and returning the results seamlessly.  
+**Modular and Extensible**: The framework is designed to be highly modular, allowing developers to add their existing code as plugins. This flexibility maximizes your investment in existing technologies and enables easy integration of new AI services.  
+**Future-Proof**: Semantic Kernel is designed to evolve with technological advancements. When new AI models are released, you can integrate them without needing to rewrite your entire codebase, ensuring your solutions remain cutting-edge.  
+
+## Getting Started:
+To start using Semantic Kernel, you can follow the quick start guide available on the Microsoft Learn website and you can have a view of some of the code samples i have made below:
 
 ## AI Answer
 ![image](https://github.com/7effrey89/SemanticKernelDemo/assets/30802073/94c1b4c8-e3af-49c9-bc59-4744c7b5a991)
