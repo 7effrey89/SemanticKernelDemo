@@ -15,7 +15,7 @@ You can also have a view of some of the code samples I've made to accelerate you
 
 ## Prerequisite for RAG solutions
 Some of the samples utilizes a search index in AI Search to accomplish RAG. RAG is a common technique to bring specialized information (that is not publically known) from an external knowledge database.  
-In this demo, I have followed the guide below to create an index that consist of information from the documents in the /InternalDocuments folder. 
+In this demo, I have followed the guide below to create an index that consist of information from the documents in the /InternalDocuments folder.   
 https://learn.microsoft.com/en-us/azure/search/search-get-started-portal-import-vectors?tabs=sample-data-storage%2Cmodel-aoai#start-the-wizard
 
 ## AI answer:
