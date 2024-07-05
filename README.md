@@ -1,1 +1,53 @@
 # SemanticKernel
+In this repo you will find a couple of semantic kernel demos:
+
+## AI Answer
+![image](https://github.com/7effrey89/SemanticKernelDemo/assets/30802073/94c1b4c8-e3af-49c9-bc59-4744c7b5a991)
+
+*Demo_BasicQuestion.cs*  
+Answers a question based on general knowledge it was trained on. Nothing more.
+
+## Chatbot experience
+![image](https://github.com/7effrey89/SemanticKernelDemo/assets/30802073/6a3f27ee-6a20-4cc6-81f2-2f51be3912aa)
+
+*Demo_ChatBot.cs*  
+Chat experience with general knowledge. Chat conversation is maintained that allows users to follow up on a response from the Ai agent.
+
+## Ask your document - RAG
+*Demo_AISearch_RAG_Only.cs*  
+![image](https://github.com/7effrey89/SemanticKernelDemo/assets/30802073/797233a5-7220-4d97-8945-11c0d842d1d5)
+
+Chat experience with general knowledge + specialized knowledge. 
+Chat conversation is maintained that allows users to follow up on a response from the Ai agent.
+Ai agent can retrieve specialized information from knowledge database e.g. internal documents in Azure AI search to serve user queries. This is also known as RAG.
+
+## Copilot experience 
+*Demo_Plugins.cs*  
+![image](https://github.com/7effrey89/SemanticKernelDemo/assets/30802073/13e89860-8fb9-4f68-a9ac-d3e328030c0a)
+
+Enables a chat experience where users can ask AI to accomplish complex tasks building on chat, RAG, and now Plugins.
+Plugins enables the AI to invoke functionality inside and outside this application to complete tasks.
+
+Example:
+
+![image](https://github.com/7effrey89/SemanticKernelDemo/assets/30802073/920b9eca-6546-4045-990c-648afe9f3fa7)
+
+* 5 months ago Donald went on vacation. What is the weather like right now for that location?
+
+This question will trigger AI to make a plan of how to solve this query using the plugins at its disposal:
+1) AI will invoke my AI Search plugin to find the location of Donald's vacation
+2) Then invoke the GPS plugin to translate the gathered location to GPS coordinates (using an external API service) needed by the Weather plugin
+3) Then it will invoke the Weather plugin call external service to get the current weather for the GPS coordinates
+
+## Multi-Agent chatbot with plugins experience 
+*Demo_MultiAgent_Plugins.cs*  
+![image](https://github.com/7effrey89/SemanticKernelDemo/assets/30802073/6781a1d0-6ec9-44eb-b871-3803b93a25b3)
+
+Same as above, but each AI agent has access to different plugins.
+This enables the AI agents to have different capabilities and specialized knowledge.
+Can enable automation of complex tasks that require multiple steps and different types of knowledge.
+
+## Multi-Agent chatbot without plugins experience 
+*Demo_MultiAgent_Chatbot.cs*  
+Enables a chat experience where multiple AI agents can collaborate to solve a complex task.
+In this demo several AI agents discusses and collaborates to find the next big game product
