@@ -8,7 +8,10 @@ Semantic Kernel is a lightweight, open-source development kit designed to simpli
 **Future-Proof**: Semantic Kernel is designed to evolve with technological advancements. When new AI models are released, you can integrate them without needing to rewrite your entire codebase, ensuring your solutions remain cutting-edge.  
 
 ## Getting Started:
-To start using Semantic Kernel, you can follow the quick start guide available on the Microsoft Learn website and you can have a view of some of the code samples i have made below:
+To start using Semantic Kernel, you can follow the quick start guide available on the Microsoft Learn website:
+https://learn.microsoft.com/en-us/semantic-kernel/overview/
+
+You can have a view of some of the code samples i have made below:
 
 ## AI Answer
 ![image](https://github.com/7effrey89/SemanticKernelDemo/assets/30802073/94c1b4c8-e3af-49c9-bc59-4744c7b5a991)
