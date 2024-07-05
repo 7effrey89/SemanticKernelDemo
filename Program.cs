@@ -34,7 +34,7 @@ namespace SemanticKernel
              * Example:
              *  5 months ago Donald went on vacation. What is the weather like right now for that location?
              *  This question will trigger AI to make a plan of how to solve this query using the plugins at its disposal:
-             *      1) AI will invoke nm AI Search plugin to find the location of Jeffrey's vacation
+             *      1) AI will invoke my AI Search plugin to find the location of Donald's vacation
              *      2) Then invoke the GPS plugin to translate the gathered location to GPS coordinates (using an external API service) needed by the Weather plugin
              *      3) Then it will invoke the Weather plugin call external service to get the current weather for the GPS coordinates
              */

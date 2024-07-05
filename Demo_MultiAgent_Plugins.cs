@@ -105,7 +105,7 @@ namespace SemanticKernel
                             }
                     }
             };
-            string input = $"{getMonthsDifferenceIwasAtVacation} months ago Jeffrey went on vacation. What is the weather like right now for that location";
+            string input = $"{getMonthsDifferenceIwasAtVacation} months ago Donald went on vacation. What is the weather like right now for that location";
 
             //Add something to the chat history
             chat.AddChatMessage(new ChatMessageContent(AuthorRole.User, "What is the date today?"));
